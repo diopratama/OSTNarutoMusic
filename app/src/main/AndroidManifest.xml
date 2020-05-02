@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ostnaruto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/naruto_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2488987047554157~7254101778"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".alive"
+            android:label="Alive.mp3" >
+        </activity>
+        <activity
+            android:name=".asian_kungfu"
+            android:label="Asian Kungfu Generation.mp3" >
+        </activity>
+        <activity
+            android:name=".distance"
+            android:label="Distance.mp3" >
+        </activity>
+        <activity
+            android:name=".go_flow"
+            android:label="Go-Flow.mp3" >
+        </activity>
+        <activity
+            android:name=".hajimete"
+            android:label="Hajimete Kimi To Shabetta.mp3" >
+        </activity>
+        <activity
+            android:name=".heroes"
+            android:label="Heroes Come Back.mp3" >
+        </activity>
+        <activity
+            android:name=".ima_made"
+            android:label="Ima Made Nando Mo.mp3" >
+        </activity>
+        <activity
+            android:name=".kimi"
+            android:label="Kimi Monogatari.mp3" >
+        </activity>
+        <activity
+            android:name=".little"
+            android:label="Kanashimi Wo Yasashisa Ni.mp3" >
+        </activity>
+        <activity
+            android:name=".michi"
+            android:label="Michi All To You.mp3" >
+        </activity>
+        <activity
+            android:name=".nakushita"
+            android:label="Nakushita Kotoba.mp3" >
+        </activity>
+        <activity
+            android:name=".namikaze"
+            android:label="Namikaze Satellite.mp3" >
+        </activity>
+        <activity
+            android:name=".niwaka"
+            android:label="Niwaka Ame Nimo Makezu.mp3" >
+        </activity>
+        <activity
+            android:name=".seishun"
+            android:label="Seishun Kyousoukyoku.mp3" >
+        </activity>
+        <activity
+            android:name=".speed"
+            android:label="Speed.mp3" >
+        </activity>
+        <activity
+            android:name=".wind_akeboshi"
+            android:label="Wind.mp3" >
+        </activity>
+
+    </application>
+
+</manifest>
