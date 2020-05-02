@@ -1,0 +1,2 @@
+rootProject.name='OST Naruto'
+include ':app'

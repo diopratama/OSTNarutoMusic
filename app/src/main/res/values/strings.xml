@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Naruto Songs Offline</string>
+    <string name="naruto_banner">ca-app-pub-2488987047554157/8472702721</string>
+    <string name="naruto_interstitial">ca-app-pub-2488987047554157/6296243329</string>
+    <string name="test_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="test_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+</resources>
